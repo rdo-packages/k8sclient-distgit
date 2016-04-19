@@ -35,7 +35,7 @@ BuildRequires:  python-six
 Requires:       python-pbr >= 1.8
 Requires:       python-six >= 1.9.0
 Requires:       python-urllib3 >= 1.8.3
-Requires:       python-dateutil >= 2.4.2
+Requires:       python-dateutil
 
 # test requirements
 
@@ -66,7 +66,7 @@ BuildRequires:  python3-six
 Requires:       python3-pbr >= 1.8
 Requires:       python3-six >= 1.9.0
 Requires:       python3-urllib3 >= 1.8.3
-Requires:       python3-dateutil >= 2.4.2
+Requires:       python3-dateutil
 
 # test requirements
 
