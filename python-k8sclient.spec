@@ -132,14 +132,14 @@ rm -rf .testrepository
 %doc README.rst
 %license LICENSE
 %{python2_sitelib}/k8sclient
-%{python2_sitelib}/python_k8sclient-%{version}-py?.?.egg-info
+%{python2_sitelib}/*.egg-info
 
 %if 0%{?with_python3}
 %files -n python3-k8sclient
 %doc README.rst
 %license LICENSE
 %{python3_sitelib}/k8sclient
-%{python3_sitelib}/python_k8sclient-%{version}-py?.?.egg-info
+%{python3_sitelib}/*.egg-info
 %endif
 
 %files -n python-%{pname}-doc
