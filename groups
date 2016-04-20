@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-107582e32b5b58ef05f0ae053708786e97fcab26	openstack/k8sclient-distgit-ptl
+# UUID          Group Name
+False 	Non-Interactive Users
+0197e48cb32453b5e6815380d0436d691232aec6       	openstack/k8sclient-distgit-core
+107582e32b5b58ef05f0ae053708786e97fcab26        	openstack/k8sclient-distgit-ptl
+global:Registered-Users		Registered Users
