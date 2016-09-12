@@ -2,4 +2,4 @@
 host=review.rdoproject.org
 port=29418
 project=openstack/k8sclient-distgit
-defaultbranch=rpm-master
+defaultbranch=newton-rdo
