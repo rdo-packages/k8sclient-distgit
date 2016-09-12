@@ -8,8 +8,8 @@
 %endif
 
 Name:           python-k8sclient
-Version:        XXX
-Release:        XXX
+Version:        0.3.0
+Release:        1%{?dist}
 Summary:        Python API for Kubernetes
 
 License:        ASL 2.0
@@ -147,3 +147,6 @@ rm -rf .testrepository
 %doc html doc/source/readme.rst
 
 %changelog
+* Mon Sep 12 2016 Haikel Guemar <hguemar@fedoraproject.org> 0.3.0-1
+- Update to 0.3.0
+
