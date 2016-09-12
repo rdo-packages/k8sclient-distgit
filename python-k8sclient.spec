@@ -1,3 +1,4 @@
+%{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 %global pname k8sclient
 %global sname python-k8sclient
 
@@ -13,7 +14,7 @@ Summary:        Python API for Kubernetes
 
 License:        ASL 2.0
 URL:            https://github.com/openstack/python-k8sclient
-Source0:        https://pypi.io/packages/source/p/%{sname}/%{sname}-%{version}.tar.gz
+Source0:        https://pypi.io/packages/source/p/%{sname}/%{sname}-%{upstream_version}.tar.gz
 BuildArch:      noarch
 
 %description
