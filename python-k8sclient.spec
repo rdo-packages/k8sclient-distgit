@@ -41,7 +41,6 @@ Requires:       python-dateutil
 # test requirements
 
 BuildRequires:       python-hacking
-BuildRequires:       python-coverage
 BuildRequires:       python-subunit
 BuildRequires:       python-oslotest
 BuildRequires:       python-testrepository
@@ -72,7 +71,6 @@ Requires:       python3-dateutil
 # test requirements
 
 BuildRequires:       python3-hacking
-BuildRequires:       python3-coverage
 BuildRequires:       python3-subunit
 BuildRequires:       python3-oslotest
 BuildRequires:       python3-testrepository
